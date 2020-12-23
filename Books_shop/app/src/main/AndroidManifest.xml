@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.allbooks.books_shop">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Books_shop">
+        <activity android:name=".ReqestAct"></activity>
+        <activity android:name=".ManagerAct" />
+        <activity android:name=".Salaryact" />
+        <activity android:name=".Requestactivity" />
+        <activity android:name=".Allbooks" />
+        <activity android:name=".Bookslist" />
+        <activity android:name=".Addnewbook" />
+        <activity android:name=".MainMenu" />
+        <activity android:name=".LogAct" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
